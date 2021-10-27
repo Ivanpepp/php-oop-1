@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(22, 22, 48);
+}
+main{
+    margin-top: 100px;
+}
+.my-view{
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex-element{
+    width: 50%;
+    margin-right: 20px;
+}
+img{
+    width: 500px;
+    height: 600px;
+    object-position: top;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+p{
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
